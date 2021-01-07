@@ -18,7 +18,9 @@
 
 .Jumbotron-cards { 
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 1em;
+    
     
     
 

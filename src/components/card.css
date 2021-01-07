@@ -2,5 +2,12 @@
     width: 300px;
     height: 200px;
     border-style: solid;
+    border-color: rgb(250, 249, 247);
+    background-color: white;
+    color: rgb(46, 45, 45);
+    box-shadow: 10px 10px 8px #888888
+
+
+
 
 }
