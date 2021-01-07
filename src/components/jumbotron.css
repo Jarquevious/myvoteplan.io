@@ -19,6 +19,8 @@
 .Jumbotron-cards { 
     display: flex;
     justify-content: center;
+    border-radius: 1em;
+    
 
 
 }
