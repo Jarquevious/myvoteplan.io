@@ -1,0 +1,24 @@
+.Jumbotron {
+    background-color: blue;
+    color: white;
+
+}
+
+.Jumbotron-big-text {
+    font-size: 3em;
+}
+
+.Jumbotron-button {
+    border-radius: 3em;
+    font-size: 1em;
+    padding: 1em;
+    background-color: white;
+    color: blue
+}
+
+.Jumbotron-cards { 
+    display: flex;
+    justify-content: center;
+
+
+}
