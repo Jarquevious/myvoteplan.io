@@ -4,9 +4,8 @@ import './card.css';
 function Card(props) {
     return(
         <div className="Card" b>
-            <h3>
+            <h3 className='title'>
                 {props.heading} 
-            
             </h3>
             <p>
                 {props.body}
