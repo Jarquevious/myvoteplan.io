@@ -1,5 +1,5 @@
 import './jumbotron.css'
-import Card from './card'
+import Card from './Card'
 
 function Jumbotron() {
     return(

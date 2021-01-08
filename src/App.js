@@ -1,6 +1,6 @@
 import './App.css';
-import Navbar from './components/navbar'
-import Jumbotron from './components/jumbrotron'
+import Navbar from './components/Navbar'
+import Jumbotron from './components/Jumbrotron'
 
 function App() {
   return (
