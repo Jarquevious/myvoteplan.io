@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import './Navbar.css'
+import './navbar.css'
+
 function Navbar() {
     return(
         <div className="Navbar">
