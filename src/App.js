@@ -1,8 +1,8 @@
 import './App.css';
-import Navbar from './components/navbar'
-import Jumbotron from './components/jumbrotron'
+import Navbar from './components/navbar/navbar'
+import Jumbotron from './components/jumbotron/jumbrotron'
 import ReactDOM from 'react-dom';
-import HorizontalLabelPositionBelowStepper from './components/progress-bar';
+import HorizontalLabelPositionBelowStepper from './components/progress-bar/progress-bar';
 
 ReactDOM.render(<HorizontalLabelPositionBelowStepper />, document.querySelector('#root'));
 
