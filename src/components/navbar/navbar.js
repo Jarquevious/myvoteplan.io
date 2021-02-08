@@ -28,7 +28,7 @@ export default function ButtonAppBar() {
       <AppBar color="white" position="static">
         <Toolbar>
        
-          <Typography fontWeight='medium' color="primary" variant="h4" className={classes.title}>
+          <Typography color="primary" variant="h4" className={classes.title}>
             MyVotePlan
           </Typography>
           <Button color="primary">FAQ</Button>
