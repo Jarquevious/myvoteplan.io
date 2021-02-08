@@ -14,8 +14,10 @@ const useStyles = makeStyles((theme) => ({
   
   title: {
     flexGrow: 1,
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(120),
+    fontWeight: 'bold',
   },
+ 
 }));
 
 export default function ButtonAppBar() {
@@ -26,11 +28,11 @@ export default function ButtonAppBar() {
       <AppBar color="white" position="static">
         <Toolbar>
        
-          <Typography variant="h4" className={classes.title}>
-            My Vote Plan
+          <Typography fontWeight='medium' color="primary" variant="h4" className={classes.title}>
+            MyVotePlan
           </Typography>
-          <Button color="blue">FAQ</Button>
-          <Button color="blue">Contact Us</Button>
+          <Button color="primary">FAQ</Button>
+          <Button color="primary">Contact Us</Button>
         </Toolbar>
       </AppBar>
     </div>
