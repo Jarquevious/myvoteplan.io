@@ -1,17 +1,38 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import './navbar.css'
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
 
-function Navbar() {
-    return(
-        <div className="Navbar">
-            <div>My Vote Plan</div>
-            <div>
-                <a href='#'>FAQ</a>
-                <a href='#'>Contact Us</a>
-            </div>
-        </div>
-    )
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+  },
+  
+  title: {
+    flexGrow: 1,
+    marginRight: theme.spacing(2),
+  },
+}));
 
+export default function ButtonAppBar() {
+  const classes = useStyles();
+
+  return (
+    <div className={classes.root}>
+      <AppBar color="white" position="static">
+        <Toolbar>
+       
+          <Typography variant="h4" className={classes.title}>
+            My Vote Plan
+          </Typography>
+          <Button color="blue">FAQ</Button>
+          <Button color="blue">Contact Us</Button>
+        </Toolbar>
+      </AppBar>
+    </div>
+  );
 }
-
-export default Navbar
