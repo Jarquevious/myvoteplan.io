@@ -10,6 +10,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    
   },
   
   title: {
@@ -17,7 +18,10 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(120),
     fontWeight: 'bold',
   },
- 
+  
+  spoon: {
+    color:'primary',
+  },
 }));
 
 export default function ButtonAppBar() {
@@ -32,6 +36,7 @@ export default function ButtonAppBar() {
             MyVotePlan
           </Typography>
           <Button color="primary">FAQ</Button>
+          
           <Button color="primary">Contact Us</Button>
         </Toolbar>
       </AppBar>
