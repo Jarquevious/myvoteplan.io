@@ -1,6 +1,5 @@
 import './jumbotron.css'
 import Card from '../card/card'
-import Box from '@material-ui/core/Box';
 
 
 function Jumbotron() {
@@ -8,7 +7,7 @@ function Jumbotron() {
         <div className='Jumbotron'>
             <div className='Jumbotron-big-text'>
                 Plan who, where and how to Vote in Local, State, County, City and National Elections
-            </div>
+        s</div>
             <button className='Jumbotron-button'>
                 Create a Plan
             </button>

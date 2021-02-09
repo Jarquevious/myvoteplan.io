@@ -6,6 +6,14 @@
 
 .Jumbotron-big-text {
     font-size: 3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 50%;
+    
+    
 }
 
 .Jumbotron-button {
@@ -13,7 +21,10 @@
     font-size: 1em;
     padding: 1em;
     background-color: white;
-    color: blue
+    color: blue;
+    margin-top: 15px ;
+    position: absolute;
+    left: 15px;
 }
 
 .Jumbotron-cards { 
