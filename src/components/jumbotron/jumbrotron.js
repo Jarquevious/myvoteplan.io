@@ -1,5 +1,4 @@
 import './jumbotron.css'
-import Card from '../card/card'
 import ContainedButtons from '../create_plan_button/create_plan_button';
 
 
@@ -7,18 +6,15 @@ import ContainedButtons from '../create_plan_button/create_plan_button';
 function Jumbotron() {
     return(
         <div className='Jumbotron'>
-            <div className='Jumbotron-big-text' ali>
-                Plan who, where and how to Vote in Local, State, County, City and National Elections
-        </div>
+            <section className='Jumbotron-big-text'>
+                <p>
+                    Plan <b>who</b>, <b>where</b> and <b>how</b> to Vote in Local, State, County, City and National Elections
+                </p>
+            </section>
             {/* <button className='Jumbotron-button'>
                 Create a Plan
             </button> */}
             <ContainedButtons />
-             <div className='Jumbotron-cards'>
-                <Card heading='Select Polling Places' body='Including early polling sites and absentee drop box locations for a given residential street address'/> 
-                <Card heading='Contest and Candidate Information' body="Contests that will appear on the voter's ballot"/>
-                <Card heading='Election Official Information' body="Including early polling sites for a given residential street address"/>
-            </div>
          </div>
     )
 }

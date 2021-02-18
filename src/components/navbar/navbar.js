@@ -14,9 +14,12 @@ const useStyles = makeStyles((theme) => ({
   },
   
   title: {
-    flexGrow: 1,
+    display: 'flex',
+    flexDirection: 'row',
+    flexGrow: .999,
     marginRight: theme.spacing(120),
     fontWeight: 'bold',
+    color: '#3f51b5'
   },
   
   spoon: {
@@ -32,7 +35,7 @@ export default function ButtonAppBar() {
       <AppBar color="white" position="static">
         <Toolbar>
        
-          <Typography color="primary" variant="h4" className={classes.title}>
+          <Typography variant="h4" className={classes.title}>
             MyVotePlan
           </Typography>
           <Button color="primary">FAQ</Button>

@@ -1,14 +1,16 @@
 .Card {
-    width: 300px;
-    height: 200px;
+    
+    width: 400px;
+    height: 150px;
     background-color: white;
     color: rgb(46, 45, 45);
-    border: 1px solid;
+    
     padding: 1px;
     box-shadow: 1px 1px #090909;
 
 }
 
 .title {
+    
     color: #0052CC;
 }
