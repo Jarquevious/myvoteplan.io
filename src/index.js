@@ -5,7 +5,7 @@ import { Security } from '@okta/okta-react';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from './serviceworker.js';
 
 const oktaConfig = {
   issuer: `${process.env.REACT_APP_OKTA_ORG_URL}/oauth2/default`,
